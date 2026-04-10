@@ -14,8 +14,10 @@ I have learnt how to do
 4. Query Decomposition (breaks a complex questions into 3 smaller sub-question, answers each sub-question, adds context relevant to the question, ONLY answers the LAST sub-question)
 5. Query Decomposition (combines all answers from sub questions into final answer)
 6. Step back RAG (reprhase a specific question into a more general one, retrieves context for both specific question and general questions)
-7. HyDE-based RAG (generate a scientific-style passage to answer the question, use this passage as document to answer question)
-8. 
+7. HyDE-based RAG (Hypothetical Document Embeddings) (generate a scientific-style passage to answer the question, use this passage as document to answer question)
+8. Logical Routing (uses an LLM to decide which documentation source (Python, JS, Go) should answer a user's question)
+9. Semantic Routing (uses an LLM to decide how to answer a question (either as a physics or math expert) based on semantic similiarty)
+10. 
 
 I use langflow and langchain to build RAG. 
 
