@@ -19,7 +19,8 @@ I have learnt how to do
 9. Semantic Routing (uses an LLM to decide how to answer a question (either as a physics or math expert) based on semantic similiarty)
 10. Query structuring for metadata filters (turns natural language questions into structured, filterable search queries for a video database using an LLM)
 11. Multi-vector retrieval (scrape webpages, summarize the documents, stores embeddings of both summaries and originals, after a question is asked it searches summaries and returns full documents)
-12. RAPTOR (
+12. RAPTOR (splits documents into small pieces, group similar chunks together using vector embeddings, summarize each cluster, then summarize summaries which forms a tree structure, queries can match fine-grained chunks (details) and higher-level summaries (concepts))
+13. 
 
 I use langflow and langchain to build RAG. 
 
