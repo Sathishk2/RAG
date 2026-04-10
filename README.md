@@ -5,12 +5,17 @@ Thanks for visiting my RAG Repository.
 In this repository, I built RAG where I learn how to
 1. Load and split the document into chunks
 2. embed it into vector database
-3. retrieve chunks
+3. retrieve chunks based on the query
 
 I have learnt how to do 
 1. traditional RAG
-2. multi-query retrieval (generating multiple variations of a question)
-3. 
+2. multi-query retrieval (generate multiple variations of a question, retrieve document for each question, answers the main question)
+3. RAG-Fusion (generate multiple variations of a question, retrieve document for each question, ranks documents: if documents appear in each question, its rank is higher, highest rank document is used as context, LLM generates final answer)
+4. Query Decomposition (breaks a complex questions into 3 smaller sub-question, answers each sub-question, adds context relevant to the question, ONLY answers the LAST sub-question)
+5. Query Decomposition (combines all answers from sub questions into final answer)
+6. Step back RAG (reprhase a specific question into a more general one, retrieves context for both specific question and general questions)
+7. HyDE-based RAG (generate a scientific-style passage to answer the question, use this passage as document to answer question)
+8. 
 
 I use langflow and langchain to build RAG. 
 
