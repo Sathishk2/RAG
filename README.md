@@ -17,7 +17,9 @@ I have learnt how to do
 7. HyDE-based RAG (Hypothetical Document Embeddings) (generate a scientific-style passage to answer the question, use this passage as document to answer question)
 8. Logical Routing (uses an LLM to decide which documentation source (Python, JS, Go) should answer a user's question)
 9. Semantic Routing (uses an LLM to decide how to answer a question (either as a physics or math expert) based on semantic similiarty)
-10. Query structuring for metadata filters (turns natural language questions into structured, filterable search queries for a video dtabase using an LLM) 
+10. Query structuring for metadata filters (turns natural language questions into structured, filterable search queries for a video database using an LLM)
+11. Multi-vector retrieval (scrape webpages, summarize the documents, stores embeddings of both summaries and originals, after a question is asked it searches summaries and returns full documents)
+12. RAPTOR (
 
 I use langflow and langchain to build RAG. 
 
