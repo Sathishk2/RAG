@@ -5,7 +5,7 @@ Thanks for visiting my RAG Repository.
 In this repository, I built RAG where I learn how to
 1. Load and split the document into chunks
 2. embed it into vector database
-3. retrieve chunks based on the query
+3. when there's a query, retrieve chunks based on top-k documents via similarity
 
 I have learnt how to do 
 1. traditional RAG
@@ -20,7 +20,7 @@ I have learnt how to do
 10. Query structuring for metadata filters (turns natural language questions into structured, filterable search queries for a video database using an LLM)
 11. Multi-vector retrieval (scrape webpages, summarize the documents, stores embeddings of both summaries and originals, after a question is asked it searches summaries and returns full documents)
 12. RAPTOR (splits documents into small pieces, group similar chunks together using vector embeddings, summarize each cluster, then summarize summaries which forms a tree structure, queries can match fine-grained chunks (details) and higher-level summaries (concepts))
-13. 
+13. ColBERT (
 
 I use langflow and langchain to build RAG. 
 
